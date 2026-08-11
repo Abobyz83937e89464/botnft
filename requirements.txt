@@ -1,0 +1,7 @@
+# requirements.txt
+aiogram==3.7.0
+flask==3.0.0
+telethon==1.36.0
+httpx==0.27.0
+gunicorn==22.0.0
+asyncio==3.4.3
