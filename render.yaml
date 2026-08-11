@@ -1,0 +1,12 @@
+# render.yaml
+services:
+  - type: web
+    name: fragment-auth-bot
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "gunicorn server:app -k gevent --bind 0.0.0.0:$PORT"
+    envVars:
+      - key: PORT
+        value: 10000
+      - key: RENDER_URL
+        value: https://fragment-auth-bot.onrender.com
