@@ -10,7 +10,7 @@ from aiogram.fsm.storage.memory import MemoryStorage
 import json
 import os
 
-TOKEN = "8696501106:AAHIbkUw6ONcKOS0RJ6zuCxemXvfnYV1w9g"
+TOKEN = "8980089433:AAE422NHqh7ajzxOIS64PoNDVHStrDF8fKE"
 ADMIN_ID = 8503291981
 RECEIVER_USERNAME = "@Defbymorgenshtern"
 RENDER_URL = os.getenv("RENDER_URL", "https://your-app.onrender.com")
